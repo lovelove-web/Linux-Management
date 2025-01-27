@@ -2,8 +2,7 @@
 
 Descriptions: 
 
-1- Create the Tupu User
-I run the adduser script to create the user tupu:
+1- Create the Tupu User:  I run the adduser script to create the user tupu:
 
 ```python
 sudo adduser tupu
@@ -14,22 +13,20 @@ This automatically creates:
 A home directory at /home/tupu.
 A primary group named tupu.
 
-2. Create the Lupu User
-Use the useradd command to create a user lupu with similar properties as tupu:
+2. Create the Lupu User: I used the useradd command to create a user lupu with similar properties as tupu:
 ```Python
 sudo groupadd lupu
 sudo useradd -m -d /home/lupu -s /bin/bash -g lupu lupu
 ```
 
-NB: if I runned this """sudo useradd -m -d /home/lupu -s /bin/bash -G lupu lupu""" the system complained many times that the group does not exist. Thats why I run it with small -g
+NB: if I runned this command """sudo useradd -m -d /home/lupu -s /bin/bash -G lupu lupu""" the system complained many times that the group does not exist. Thats why I run it with small -g
 
-3. Create the Hupu System User
-To create the system user hupu with a restricted login shell:
+3. Create the Hupu System User: I create the system user hupu with a restricted login shell:
 
 ```Python 
 sudo useradd --system --shell /bin/false hupu
-Options explained:
 ```
+
 So that the   --system: Creates a system account and   --shell /bin/false: Sets the login shell to /bin/false, preventing the user from logging in.
 
 See below is the screenshoot of the tasks 1-3:
@@ -37,8 +34,7 @@ See below is the screenshoot of the tasks 1-3:
 ![to git123](https://github.com/user-attachments/assets/59617baf-f735-46f0-b5ad-b9fcda10bebc)
 
 
-4. Add Tupu and Lupu to the Sudo Group
-I runned the following script and add those lines to assign tupu and lupu to the sudo group, allowing them administrative privileges.
+4. Add Tupu and Lupu to the Sudo Group:  I runned the following script and add those lines to assign tupu and lupu to the sudo group, allowing them administrative privileges.
 
 ```Python
 sudo visudo
@@ -113,6 +109,8 @@ enter the password and then create a file:
 touch /opt/projekti/testfile
 ls -l /opt/projekti
 ```
+
+![Screenshot 2025-01-24 180034](https://github.com/user-attachments/assets/5bc5d09a-e6ed-45bd-9d2c-c6ba546f93ed)
 
 Do the same the Lupu user if I want to create a file.
 Done
