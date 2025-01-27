@@ -74,8 +74,11 @@ sudo chmod 775 /opt/projekti
 ```
 
 Permissions breakdown:
+
 7 (Owner): Full access (read, write, execute).
+
 7 (Group): Full access (read, write, execute).
+
 5 (Others): Read and execute only.
 
 then I added Tupu and Lupu to the projekti Group
@@ -112,5 +115,5 @@ ls -l /opt/projekti
 
 ![Screenshot 2025-01-24 180034](https://github.com/user-attachments/assets/5bc5d09a-e6ed-45bd-9d2c-c6ba546f93ed)
 
-Do the same the Lupu user if I want to create a file.
+I can do the same for the Lupu user if I want to create a file.
 Done
