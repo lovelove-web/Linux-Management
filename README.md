@@ -4,10 +4,10 @@
 Kossi AZIADZO, BEIRP24A6
 
 ## Content
-    -Introduction to Markdown
-    -Markdown syntax basics
-    -Introduction to Linux
-    -Basic commands
+    - Introduction to Markdown
+    - Markdown syntax basics
+    - Introduction to Linux
+    - Basic commands
 
 ## Markdown Examples
 
