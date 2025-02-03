@@ -4,22 +4,22 @@
 Kossi AZIADZO, BEIRP24A6
 
 ## Content
-    - Introduction to Markdown
-    - Markdown syntax basics
-    - Introduction to Linux
-    - Basic commands
+-Introduction to Markdown
+-Markdown syntax basics
+-Introduction to Linux
+-Basic commands
 
 ## Markdown Examples
 
 ### Bold and Italic Text
-    - **Bold text**: `**Learning Linux Basics**`
-    - *Italic text*: `*This is journey for the ten year*`
+    -**Bold text**: **Learning Linux Basics**
+    -*Italic text*: *This is journey for the ten year*
 
 ### Links
-    - [Redhat](https://www.redhat.com/en)
+[Redhat](https://www.redhat.com/en)
 
 ### Code Block
-    ```bash
+```bash
     echo "Hello, World!" 
     ```
 
@@ -30,6 +30,6 @@ Kossi AZIADZO, BEIRP24A6
     | Helsinki | Capital  | Expensive   | 
 
 ### Image 
-    ![Redhat](https://th.bing.com/th/id/OIP.dJJLgCg7z6HRmQZ8lE3WEAHaE5?rs=1&pid=ImgDetMain)
+![Redhat](https://th.bing.com/th/id/OIP.dJJLgCg7z6HRmQZ8lE3WEAHaE5?rs=1&pid=ImgDetMain)
 
 
