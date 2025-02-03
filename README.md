@@ -5,7 +5,7 @@ Kossi AZIADZO, BEIRP24A6
 
 ## Content 
 
-- Introduction to Markdown
+    - Introduction to Markdown
     - Markdown syntax basics
     - Introduction to Linux
     - Basic commands
@@ -22,9 +22,8 @@ Kossi AZIADZO, BEIRP24A6
 
 ### Code Block
 
-    ```Bash
+    ``` linux
     echo "Hello, World!" 
-    
     ```
 
 ### Table 
