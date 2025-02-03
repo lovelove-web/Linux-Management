@@ -3,7 +3,8 @@
 ## Author
 Kossi AZIADZO, BEIRP24A6
 
-## Content
+## Content 
+
     - Introduction to Markdown
     - Markdown syntax basics
     - Introduction to Linux
@@ -12,8 +13,8 @@ Kossi AZIADZO, BEIRP24A6
 ## Markdown Examples
 
 ### Bold and Italic Text
-    -**Bold text**: **Learning Linux Basics**
-    -*Italic text*: *This is journey for the ten year*
+    - **Learning Linux Basics**
+    - *This is journey for the ten year*
 
 ### Links
 [Redhat](https://www.redhat.com/en)
