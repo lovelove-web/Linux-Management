@@ -4,7 +4,7 @@
 Kossi AZIADZO, BEIRP24A6
 
 ## Content 
-
+-Basic
     - Introduction to Markdown
     - Markdown syntax basics
     - Introduction to Linux
@@ -14,7 +14,8 @@ Kossi AZIADZO, BEIRP24A6
 
 ### Bold and Italic Text
 
-   **Learning Linux Basics**
+   **Learning Linux Basics** 
+   
      *This is journey for the ten year*
 
 ### Links
@@ -22,7 +23,7 @@ Kossi AZIADZO, BEIRP24A6
 
 ### Code Block
 
-    ``` linux
+    ```bash
     echo "Hello, World!" 
     ```
 
