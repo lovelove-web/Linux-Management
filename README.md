@@ -26,7 +26,7 @@ Kossi AZIADZO, BEIRP24A6
 
 ```bash
 echo "Hello, World!" 
-    
+```    
 
 ### Table 
     | City     | Type     | Financially |
