@@ -5,7 +5,7 @@ Kossi AZIADZO, BEIRP24A6
 
 ## Content 
 
-    - Introduction to Markdown
+- Introduction to Markdown
     - Markdown syntax basics
     - Introduction to Linux
     - Basic commands
@@ -13,15 +13,18 @@ Kossi AZIADZO, BEIRP24A6
 ## Markdown Examples
 
 ### Bold and Italic Text
-    - **Learning Linux Basics**
-    - *This is journey for the ten year*
+
+   **Learning Linux Basics**
+     *This is journey for the ten year*
 
 ### Links
 [Redhat](https://www.redhat.com/en)
 
 ### Code Block
-    ```bash
+
+    ```Bash
     echo "Hello, World!" 
+    
     ```
 
 ### Table 
