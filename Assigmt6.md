@@ -43,6 +43,7 @@ Building dependency tree... Done
 
 *Upgrade installs the latest versions of installed packages.*
 
+![Screenshot 2025-02-06 223844](https://github.com/user-attachments/assets/4790df33-e54c-45fb-a70b-587d174566a2)
 
 # Part 2: Installing & Managing Packages (20 min)
    **5.Search for a package using APT:**
@@ -104,6 +105,7 @@ Processing triggers for man-db (2.10.2-1) ...*
 *Is the package fully removed?* 
 **No, configuration files still exist.
 ```
+![Screenshot 2025-02-06 224026](https://github.com/user-attachments/assets/1955c441-411f-4c70-92a1-4440930734f5)
 
    **10.Remove configuration files as well:**
 ```sh
@@ -182,6 +184,8 @@ All packages are up to date.
 ```
   *What types of packages are found in the universe repository?* 
   **The universe repository contains community-maintained open-source software that is not officially supported by Ubuntu.** 
+  
+![Screenshot 2025-02-06 225114](https://github.com/user-attachments/assets/aa1cf7b8-0fd9-4453-b462-8f60e595cb4f)
 
 **15.Simulate an installation failure and troubleshoot:**
 
