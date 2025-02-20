@@ -30,6 +30,8 @@
 
 ---
 
+![Screenshot 2025-02-14 173956](https://github.com/user-attachments/assets/e979e842-7685-4a5e-b508-861c5c7df2fb)
+
 ## Part 2: Working with Multipass
 
 ### Installation
@@ -69,11 +71,15 @@ Stop an instance:
 multipass stop my-lin4-VM 
 ```
 
+![Screenshot 2025-02-14 174048](https://github.com/user-attachments/assets/1ff01d86-d6c8-493b-a88f-be038611b273)
+
 Delete an instance:
 ```bash
 multipass delete my-lin4-VM 
 multipass purge
 ```
+
+![Screenshot 2025-02-14 173840](https://github.com/user-attachments/assets/7698aeea-2049-45cd-82fb-39760e1dc443)
 
 ### Cloud-init
 **Study:**  
@@ -126,6 +132,8 @@ To run all available images:
 $ lxc image list images:
 ```
 
+![Screenshot 2025-02-19 235549](https://github.com/user-attachments/assets/b2b1845c-b339-4834-adcd-85a6d4812c88)
+
 Initialized LXD:
 ```bash
 lxd init
@@ -142,6 +150,8 @@ List containers:
 lxc list
 ```
 
+![Screenshot 2025-02-19 235624](https://github.com/user-attachments/assets/e509144e-0f71-4519-a206-ab70817899bc)
+
 Access the container shell:
 ```bash
 lxc exec el-container -- /bin/bash
@@ -152,6 +162,8 @@ Stop and delete a container:
 lxc stop el-container
 lxc delete el-container
 ```
+
+![Screenshot 2025-02-19 235640](https://github.com/user-attachments/assets/15173982-a793-4378-ad8e-fcba773bf364)
 
 ---
 
@@ -183,6 +195,8 @@ Ran a container:
 ```bash
 docker run -it ubuntu /bin/bash
 ```
+
+![Screenshot 2025-02-19 235834](https://github.com/user-attachments/assets/9ce53ad2-a03b-4795-9ea2-40cba4297ecc)
 
 Created a `Dockerfile` to build a custom image:
 ```dockerfile
@@ -249,6 +263,8 @@ snapcraft
  sudo snap install ./hello-snap_0.1_amd64.snap --dangerous --devmode
  snap list
 ```
+
+![Screenshot 2025-02-20 173702](https://github.com/user-attachments/assets/7f23c0f2-9008-4ef7-8cb7-e037a9255133)
 
 ---
 
