@@ -48,8 +48,9 @@ sudo ufw logging on
 ```sh
 sudo ufw limit proto tcp from any to any port 22
 ```
-
 **Reason:** Limits the rate of new TCP connections to prevent SYN flood attacks.
+
+![Screenshot 2025-02-24 154124](https://github.com/user-attachments/assets/5f1d4961-ee20-4c16-8918-f02755ac0215)
 
 ### Additional Protection
 
@@ -80,3 +81,6 @@ sudo ufw default allow outgoing
 sudo systemctl enable ufw   #Enable UFW service on boot (if not already enabled)
 sudo ufw status verbose   # Verify rules
 ```
+
+![Screenshot 2025-02-24 154158](https://github.com/user-attachments/assets/639c2f7d-3d2b-47e5-9ab1-83a3f3a5e82c)
+
